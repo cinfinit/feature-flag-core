@@ -90,7 +90,7 @@ Feature Flag Core is here to save your life (or at least your production environ
 
 ## 🤖 **Why Should You Care?**
 
-Let’s be real. You don’t want to deploy every single time you want to turn a feature on or off. With Feature Flag Manager, you can:
+Let’s be real. You don’t want to deploy every single time you want to turn a feature on or off. With Feature Flag Core, you can:
 
 * **Control**: The flags are in your hands. No more guessing.
 * **Test**: Gradually roll out new features to specific users. It’s like A/B testing without the messy spreadsheets.
