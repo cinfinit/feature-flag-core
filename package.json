@@ -1,0 +1,51 @@
+{
+  "name": "feature-flag-core",
+  "version": "1.0.0",
+  "description": "Turn features on and off like a pro – no magic spells required.🎩✨",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "bin": {
+    "feature-flag-cli": "./dist/src/backend/index.js"
+  },
+  "scripts": {
+    "build": "npm run compile && npm run copy-assets && npm run copy-flags",
+    "compile": "tsc",
+    "copy-assets": "cp src/ui/toggleStyles.css dist/src/ui/",
+    "start": "node dist/src/backend/index.js",
+     "copy-flags": "cp flags.json dist/src"
+  },
+  "keywords": [
+    "feature-flag",
+    "feature-toggle",
+    "feature-management",
+    "UI",
+    "flags",
+    "toggle",
+    "configuration",
+    "javascript",
+    "api",
+    "react",
+    "node",
+    "dev-tools",
+    "local-backend",
+    "npm-package","manager"
+  ],
+  "author": "cinfinit",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.10",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
