@@ -70,13 +70,13 @@ This will give you a `true` or `false` value based on the flag’s state. It’s
 You need a backend to manage those flags. Fire it up with:
 
 ```bash
-feature-flag-cli
+npx feature-flag-cli
 ```
 
 Or if you’re feeling fancy and need a custom port:
 
 ```bash
-feature-flag-cli --port <yourPortNumber>
+npx feature-flag-cli --port <yourPortNumber>
 ```
 
 By default, it runs on port `3231` because, well, we’re into simplicity. But hey, you do you.
