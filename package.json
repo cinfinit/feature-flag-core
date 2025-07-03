@@ -1,6 +1,6 @@
 {
   "name": "feature-flag-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🏁 Turn features on and off like a pro – no magic spells required.🎩✨",
   "type": "module",
   "main": "dist/index.js",
@@ -13,7 +13,7 @@
     "compile": "tsc",
     "copy-assets": "cp src/ui/toggleStyles.css dist/src/ui/",
     "start": "node dist/src/backend/index.js",
-     "copy-flags": "cp flags.json dist/src"
+    "copy-flags": "cp flags.json dist/src"
   },
   "keywords": [
     "feature-flag",
@@ -29,7 +29,8 @@
     "node",
     "dev-tools",
     "local-backend",
-    "npm-package","manager"
+    "npm-package",
+    "manager"
   ],
   "author": "cinfinit",
   "license": "ISC",
