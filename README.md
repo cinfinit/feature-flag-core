@@ -1,5 +1,4 @@
-
-# 🎉 **Feature Flag Core** - Your New Best Friend for Managing Features (and Keeping Your Sanity Intact)
+# 🏁 Feature Flag Core [![NPM version](https://img.shields.io/npm/v/feature-flag-core.svg?style=flat)](https://www.npmjs.com/package/feature-flag-core) [![NPM downloads](https://img.shields.io/npm/dm/feature-flag-core.svg?style=flat)](https://npmjs.org/package/feature-flag-core) 
 
 Managing features in your app is like juggling flaming swords. One wrong move, and it’s chaos. But with **Feature Flag Core**, you can tame those swords and keep everything in control without burning yourself out. 🔥
 This manager really does the heavy lifting. THIS Manager ;)
