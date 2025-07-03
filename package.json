@@ -1,6 +1,6 @@
 {
   "name": "feature-flag-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🏁 Turn features on and off like a pro – no magic spells required.🎩✨",
   "type": "module",
   "main": "dist/index.js",
