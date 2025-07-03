@@ -15,6 +15,14 @@
     "start": "node dist/src/backend/index.js",
     "copy-flags": "cp flags.json dist/src"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cinfinit/feature-flag-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cinfinit/feature-flag-core/issues"
+  },
+  "homepage": "https://github.com/cinfinit/feature-flag-core#readme",
   "keywords": [
     "feature-flag",
     "feature-toggle",
